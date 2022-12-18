@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  // TODO: donot delete this! these CSS are for preventing selecting the text. some text accidently gets selected on clicking the toggle button. will ask team members to add this functionality for whole website!
+  // TODO: this feature can help us in preventing the preperation content getting copied by the students!
+  // TODO: will also disable downloading the PDFs!
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+:root {
+  --background: #101010;
+  --hover: #2c2e38;
+  --border: #40424c;
+  --theme: #c86004;
+  --font: #ebebeb;
+}
+
+.App {
+  font-family: Montserrat;
+  background: var(--background);
+  color: var(--font);
+
+  display: flex;
+  flex-direction: row;
+  height: auto;
+
+  .navigation {
+    width: 20%;
+    height: 100vh;
+  }
+
+  .components {
+    width: 80%;
+    margin: 10% 5%;
+  }
+}
