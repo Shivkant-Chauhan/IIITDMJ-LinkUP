@@ -1,5 +1,5 @@
-import "./App.css";
-import { BrowserRouter as Router, Routes, Route, Form } from "react-router-dom";
+import "./App.scss";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 // components
 import Navbar from "./components/navigation/Navbar";
@@ -22,13 +22,17 @@ function App() {
       />
 
       <div className="App">
-        {/* NAVBAR always displayed! */}
-        <Navbar />
-        <Routes>
-          {/* <Route exact path="/" element={<Home />} /> */}
-          <Route exact path="/user" element={<User />} />
-        </Routes>
+        <div className="navigation">
+          <Navbar />
+        </div>
+        <div className="components">
+          <Routes>
+            {/* <Route exact path="/" element={<Home />} /> */}
+            <Route exact path="/user" element={<User />} />
+          </Routes>
+        </div>
       </div>
+
     </Router>
   );
 }

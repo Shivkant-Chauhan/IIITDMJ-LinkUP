@@ -1,9 +1,213 @@
 .user {
-  max-width: 80%;
-  // border: 1px solid black;
+  padding: 0 5%;
+  height: auto;
   
-  .user-img {
-    border-radius: 50%;
-    // border: 1px solid;
+  .userInfo {
+    display: flex;
+    flex-direction: row;
+
+    .user-img {
+      width: 25%;
+      display: flex;
+      justify-content: center;
+    
+      img {
+        border-radius: 50%;
+      }
+    }
+
+    .user-details {
+      width: 75%;
+
+      .user-name {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        color: #EBEBEB;
+        order: 0;
+      }
+      .user-college {
+        font-weight: 400;
+        font-size: 20px;
+      }
+      .tech-stack {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        margin-top: 20px;
+      }
+      .user-tech {
+        display: flex;
+        align-items: flex-start;
+        gap: 10px;
+        flex-wrap: wrap;
+        margin-top: 5px;
+      }
+      .tech-items {
+        box-sizing: border-box;
+        padding: 5px 10px;
+        background: rgba(44, 46, 56, 0.5);
+        border: 1px solid #40424C;
+        border-radius: 10px;
+      }
+    }
   }
+}
+
+.user-experience {
+  margin-top: 7.5%;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 2%;
+  gap: 15px;
+  border: 1px solid #40424C;
+  border-radius: 5px;
+
+  .exp-heading {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+  }
+  .exp-subHeading {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(235, 235, 235, 0.7);
+  }
+
+  .exp-details {
+    box-sizing: border-box;
+    padding: 20px;
+    width: 100%;
+    background: #101010;
+    border: 1px solid #40424C;
+    border-radius: 5px;
+
+    .exp-header {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 0px;
+      font-family: 'Montserrat';
+      font-style: normal;
+      gap: 14px;
+      cursor: pointer;
+       
+      .exp-name-timeline {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 90%;
+        gap: 5px;
+
+        .exp-name {
+          font-weight: 400;
+          font-size: 20px;
+        }
+        .exp-timeline {
+          font-weight: 500;
+          font-size: 12px;
+          color: rgba(235, 235, 235, 0.7);
+        }
+      }
+      .arrow {
+        font-size: 30px;
+      }
+    }
+    .exp-desc {
+      margin-top: 10px;
+    }
+  }
+}
+
+.user-projects {
+  margin-top: 5%;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 2%;
+  gap: 15px;
+  border: 1px solid #40424C;
+  border-radius: 5px;
+
+  .profile-heading {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+  }
+
+  .project-details {
+    width: 100%;
+
+    .project-header {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 0px;
+      font-family: 'Montserrat';
+      font-style: normal;
+      gap: 14px;
+      cursor: pointer;
+  
+      .project-name {
+        font-weight: 400;
+        font-size: 20px;
+        width: 90%;
+      }
+      .arrow {
+        font-size: 30px;
+      }
+    }
+
+    .project-info {
+
+      .project-desc {
+
+      }
+      .project-tech {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 50px;
+
+        .tech-used {
+          font-family: 'Montserrat';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 20px;
+          min-width: 15%;
+          color: #EBEBEB;
+        }
+        .project-tech-stack {
+          display: flex;
+          align-items: flex-start;
+          gap: 10px;
+          flex-wrap: wrap;
+          margin-top: 5px;
+
+          .project-tech-items {
+            box-sizing: border-box;
+            padding: 5px 10px;
+            background: rgba(44, 46, 56, 0.5);
+            border: 1px solid #40424C;
+            border-radius: 10px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.social-profile-info {
+  margin-top: 5%;
 }
