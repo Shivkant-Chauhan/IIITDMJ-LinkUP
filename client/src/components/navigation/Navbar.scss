@@ -34,6 +34,7 @@
   cursor: pointer;
   color: #ebebeb;
   text-decoration: none;
+  transition: all 0.3s;
 }
 
 .nav-menu-items:hover {
@@ -53,7 +54,17 @@
   padding: 12px 24px;
   align-items: center;
   justify-content: center;
+  color: #ebebeb;
   background: #2c2e38;
   border: 1px solid #40424c;
   border-radius: 50px;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.profile:hover {
+  color: #ebebeb;
+  text-decoration: none;
+  background: #2c2e38;
+  border: 1px solid #ebebeb;
 }

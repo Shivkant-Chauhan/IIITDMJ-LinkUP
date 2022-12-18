@@ -35,10 +35,10 @@ const Navbar = () => {
             IIITDMJ
           </Link>
         </div>
-        <div className="profile">
-          Utkarsh Raj
-          <CgProfile className="nav-icon" />
-        </div>
+        <Link to="/user" className="profile">
+            Utkarsh Raj
+            <CgProfile className="nav-icon" />
+        </Link>
       </div>
     </div>
   );
