@@ -1,10 +1,137 @@
 .login {
   background-color: #101010;
-  margin-left: 250px;
 
   .login-heading {
     font-size: 32px;
     font-weight: 600;
     text-align: center;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 20px;
+    gap: 30px;
+    background: #14141a;
+    border-radius: 5px;
+  }
+
+  .form-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .login-hero {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 150px;
+    margin-top: 40px;
+  }
+
+  input,
+  input:focus {
+    padding: 12px;
+    width: 300px;
+    height: 45px;
+    background: #181a24;
+    color: #ebebeb;
+    border: 1px solid #40424c;
+    border-radius: 3px;
+  }
+
+  .form-input {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+  }
+
+  .form-btn {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .submit-btn {
+    padding: 12px 24px;
+    color: #ebebeb;
+    font-weight: 500;
+    border: none;
+    background-color: #c86004;
+    border-radius: 3px;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    .icon-box {
+      height: 34px;
+      width: 34px;
+      background-color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+
+      .icon {
+        height: 28px;
+        width: 28px;
+      }
+    }
+  }
+  .submit-btn-blue {
+    background: #4285f4;
+  }
+
+  .form-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .signup-msg {
+    display: flex;
+    gap: 30px;
+  }
+
+  a {
+    color: #4285f4;
+  }
+
+  .login-info {
+    margin-top: 100px;
+    display: flex;
+    gap: 150px;
+  }
+
+  .login-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    h2 {
+      margin-top: 100px;
+      height: 32px;
+      font-weight: 600;
+      text-align: center;
+    }
+    .join-now-btn {
+      padding: 12px 24px;
+      color: #ebebeb;
+      font-weight: 500;
+      border: none;
+      background-color: #c86004;
+      border-radius: 3px;
+    }
   }
 }
