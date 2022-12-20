@@ -54,7 +54,7 @@ const Login = () => {
               <div className="icon-box">
                 <FcGoogle className="icon" />
               </div>
-              Google Login
+              Sign-in with Google
             </button>
           </div>
           <div className="form-footer">
