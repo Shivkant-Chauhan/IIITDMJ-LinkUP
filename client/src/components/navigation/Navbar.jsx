@@ -6,7 +6,7 @@ import { TfiAnnouncement } from "react-icons/tfi";
 import { BiMessageAlt } from "react-icons/bi";
 import { TbSchool } from "react-icons/tb";
 import { CgProfile } from "react-icons/cg";
-
+import { AiOutlineLogout } from "react-icons/ai";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
@@ -36,8 +36,12 @@ const Navbar = () => {
           </Link>
         </div>
         <Link to="/user" className="profile">
-            Utkarsh Raj
-            <CgProfile className="nav-icon" />
+          Utkarsh Raj
+          <CgProfile className="nav-icon" />
+        </Link>
+        <Link to="/login" className="nav-menu-items">
+          Log Out
+          <AiOutlineLogout className="nav-icon" />
         </Link>
       </div>
     </div>
