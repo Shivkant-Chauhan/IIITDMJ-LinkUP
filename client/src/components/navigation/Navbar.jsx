@@ -30,7 +30,7 @@ const Navbar = () => {
             <BiMessageAlt className="nav-icon" />
             Messaging
           </Link>
-          <Link to="/" className="nav-menu-items">
+          <Link to="/iiitdmj" className="nav-menu-items">
             <TbSchool className="nav-icon" />
             IIITDMJ
           </Link>
