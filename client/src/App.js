@@ -5,7 +5,14 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/navigation/Navbar";
 import User from "./components/user-profile/User";
 import Login from "./components/login/Login";
+import Navmenu from "./components/IIITDMJ/iiitdmj.jsx"
 
+import College from "./components/IIITDMJ/component/college.jsx";
+import Course from "./components/IIITDMJ/component/course.jsx";
+import Placements from "./components/IIITDMJ/component/placements.jsx";
+import Photos from "./components/IIITDMJ/component/photo.jsx"
+import Scholarship from "./components/IIITDMJ/component/scholarship.jsx"
+import Faculty from "./components/IIITDMJ/component/faculty.jsx";
 function App() {
   return (
     <Router>
@@ -31,6 +38,16 @@ function App() {
             {/* <Route exact path="/" element={<Home />} /> */}
             <Route exact path="/user" element={<User />} />
             <Route exact path="/login" element={<Login />} />
+
+            <Route exact path="/iiitdmj" element={<Navmenu />}>
+            <Route path="/iiitdmj/course-and-fees" element={<Course/>}/>
+            <Route exact path="/iiitdmj/college-info" element={<College/>}/>
+            <Route path="/iiitdmj/placement" element={<Placements/>}/>
+            <Route path="/iiitdmj/photos" element={<Photos/>}/>
+            <Route path="/iiitdmj/scholarship" element={<Scholarship/>}/>
+            <Route path="/iiitdmj/faculty" element={<Faculty/>}/>
+            </Route>
+            
           </Routes>
         </div>
       </div>
