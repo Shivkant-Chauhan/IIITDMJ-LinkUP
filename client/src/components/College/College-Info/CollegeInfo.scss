@@ -1,0 +1,45 @@
+.College-Infotable-p{
+    position: relative;
+    word-wrap:break-word;
+}
+
+.College-Infotable {
+    box-sizing: border-box;
+    position: absolute;
+    width: 840px;
+    height: 470px;
+    border: 1px solid #40424C;
+}
+
+.heading-text {
+    position: relative;
+    left: 7rem;
+}
+
+.College-Infotable-text {
+    padding: 15px 10px;
+    gap: 10px;
+    width: 410px;
+    height: 50px;
+    /* border */
+    border: 1px solid #40424C;
+    background: #40424C;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.College-Infotable-rows {
+    box-sizing: border-box;
+    padding: 20px 10px;
+    gap: 10px;
+    width: 410px;
+    height: 60px;
+    /* border */
+    border: 1px solid #40424C;
+}

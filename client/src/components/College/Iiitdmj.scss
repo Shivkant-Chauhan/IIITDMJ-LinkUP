@@ -1,0 +1,35 @@
+.toggle-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+
+    position: absolute;
+    width: 940px;
+    height: 47px;
+}
+
+.toggle-info {
+    padding: 15px 5px;
+    gap: 10px;
+
+    width: 140px;
+    height: 47px;
+
+    /* hover */
+
+    // background: #2C2E38;
+    /* border */
+
+    border-bottom: 2px solid #40424C;
+    border-radius: 5px;
+}
+
+.toggle-info-text {
+    padding: 15px 5px;
+    gap: 10px;
+
+    width: 140px;
+    height: 47px;
+}
