@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/navigation/Navbar";
 import User from "./components/user-profile/User";
 import Login from "./components/login/Login";
+import Iiitdmj from "./components/College/Iiitdmj";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
             {/* <Route exact path="/" element={<Home />} /> */}
             <Route exact path="/user" element={<User />} />
             <Route exact path="/login" element={<Login />} />
+            <Route exact path="/iiitdmj" element={<Iiitdmj />} />
           </Routes>
         </div>
       </div>
