@@ -6,5 +6,5 @@ export default function College() {
         <h1 >College</h1>
         </div>
     );
-    }
+}
 
