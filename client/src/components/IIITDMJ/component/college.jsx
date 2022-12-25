@@ -7,5 +7,5 @@ export default function College() {
         <p>hello</p>
         </div>
     );
-    }
+}
 
