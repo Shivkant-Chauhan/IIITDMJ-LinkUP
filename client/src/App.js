@@ -40,12 +40,12 @@ function App() {
             <Route exact path="/login" element={<Login />} />
 
             <Route exact path="/iiitdmj" element={<Navmenu />}>
-            <Route path="/iiitdmj/course-and-fees" element={<Course/>}/>
-            <Route exact path="/iiitdmj/college-info" element={<College/>}/>
-            <Route path="/iiitdmj/placement" element={<Placements/>}/>
-            <Route path="/iiitdmj/photos" element={<Photos/>}/>
-            <Route path="/iiitdmj/scholarship" element={<Scholarship/>}/>
-            <Route path="/iiitdmj/faculty" element={<Faculty/>}/>
+              <Route path="/iiitdmj/course-and-fees" element={<Course/>}/>
+              <Route exact path="/iiitdmj/college-info" element={<College/>}/>
+              <Route path="/iiitdmj/placement" element={<Placements/>}/>
+              <Route path="/iiitdmj/photos" element={<Photos/>}/>
+              <Route path="/iiitdmj/scholarship" element={<Scholarship/>}/>
+              <Route path="/iiitdmj/faculty" element={<Faculty/>}/>
             </Route>
             
           </Routes>
